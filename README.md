@@ -19,15 +19,15 @@ A player can place a pawn on any free space. The first player to **align 5 conse
 
 In the game of Gomoku (as for tic-tac-toe), the first player has more chances to win. Then we used the **long-pro variant :**
 
-• player 1 (black) places a pawn in the center of the board (H8)
-• player 2 (white) can place a pawn anywhere
-• then player 1 can place a pawn anywhere except in a square of size 7x7 from the center H8.
-• Then the game is going normally
+  - player 1 (black) places a pawn in the center of the board (H8)
+  - player 2 (white) can place a pawn anywhere
+  - then player 1 can place a pawn anywhere except in a square of size 7x7 from the center H8.
+  - Then the game is going normally
 
 
 ## 👩‍💻 Just tell me what to do
 
-In order to play this game, you can download the `AI_Project.py` file and launch it using the command line `python AI_Project.py`.
+In order to play this game, you can download the `AI_Project.py` file and launch it in command line `python AI_Project.py`.
 
 Then, follow the instructions displayed on the shell. (French version)
 
