@@ -2,7 +2,7 @@
 
 *Building an AI "Gomoku" player*
 
-✒️ Note : our team was ranked 7/100 during school competition @ESILV.
+✒️ Note : our team was **ranked in 10% best teams** during school competition @ESILV.
 
 - [📍 Introduction](#-introduction)
 - [👩‍💻 Just tell me what to do](#-Just-tell-me-what-to-do)
@@ -39,7 +39,7 @@ In order to build our AI, we focused on implementing the **MinMax algorithm** ba
   - Utility
   - Terminal Test
 
-To improve performance, we needed to reduce the number of nodes since a grid of 15x15 is really large. We used an improved version of MinMax algorithm by using a method called "Alpha-Beta pruning".
+To improve performance, we needed to reduce the number of nodes since a grid of 15x15 is really large. We used an improved version of MinMax algorithm by using a method called **"Alpha-Beta pruning".**
 
 We also used a maximum **depth** in our *searching tree* to limit the time we have to wait during each move to **0-5 seconds** approximately.
 
