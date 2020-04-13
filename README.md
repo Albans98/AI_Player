@@ -11,7 +11,14 @@
 
 ## 📍 Introduction
 
-Gomoku is a **turn-based two-player board game** (player 1 with black pawns, player 2 with white pawns). The black player plays first. Each player has 60 pieces. The size of the board is **15x15 cells**. The rows are numbered from **'A' to 'O'** and the columns are numbered from **'1' to '15'**. A player can place a pawn on any free space. The first player to **align 5 consecutive pieces** (horizontally, vertically or diagonally) wins. Otherwise, the game is a draw if there are no more pawns. In the game of Gomoku (as for tic-tac-toe), the first player has more chances to win. Then we used the **long-pro variant :**
+Gomoku is a **turn-based two-player board game** (player 1 with black pawns, player 2 with white pawns). 
+
+The black player plays first. Each player has 60 pieces. The size of the board is **15x15 cells**. The rows are numbered from **'A' to 'O'** and the columns are numbered from **'1' to '15'**. 
+
+A player can place a pawn on any free space. The first player to **align 5 consecutive pieces** (horizontally, vertically or diagonally) wins. Otherwise, the game is a draw if there are no more pawns. 
+
+In the game of Gomoku (as for tic-tac-toe), the first player has more chances to win. Then we used the **long-pro variant :**
+
 • player 1 (black) places a pawn in the center of the board (H8)
 • player 2 (white) can place a pawn anywhere
 • then player 1 can place a pawn anywhere except in a square of size 7x7 from the center H8.
@@ -38,7 +45,7 @@ We also used a maximum **depth** in our *searching tree* to limit the time we ha
 
 *And what about our heuristic ?*
 
-We decided to implement a *best score* heuristic which is giving a specific score to each cell of the grid. It means that each cell will be assigned a value based on the **probabaility to win the game** if we play on this cell. Then, we return only the 5 cells with the highest score to reduce our AI complexity.
+We decided to implement a *best score* heuristic which is giving a specific score to each cell of the grid. It means that each cell will be assigned a value based on the **probability to win the game** if we play on this cell. Then, we return only the 5 cells with the highest score to reduce our AI complexity.
 
 ## 🎓 Developers
 
