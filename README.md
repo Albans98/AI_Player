@@ -41,7 +41,7 @@ In order to build our AI, we focused on implementing the **MinMax algorithm** ba
 
 To improve performance, we needed to reduce the number of nodes since a grid of 15x15 is really large. We used an improved version of MinMax algorithm by using a method called **"Alpha-Beta pruning".**
 
-We also used a maximum **depth** in our *searching tree* to limit the time we have to wait during each move to **0-5 seconds** approximately.
+We also used a maximum **depth** in our *searching tree* to limit the time we have to wait during each move to **0-20 seconds** approximately.
 
 *And what about our heuristic ?*
 
